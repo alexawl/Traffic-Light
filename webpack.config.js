@@ -1,8 +1,3 @@
-const webpack = require('webpack');
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-var PrettierPlugin = require("prettier-webpack-plugin");
-
 module.exports = {
   entry: [
     './src/js/index.js'
